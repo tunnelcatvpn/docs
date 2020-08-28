@@ -4,7 +4,7 @@ title: Slow DNS
 parent: Server Setup
 nav_order: 5
 permalink: /server/slowdns
-last_modified_date: 2020-08-28T14:54:08+0008
+last_modified_date: 2020-08-29T00:00:00+0008
 ---
 
 # Setup Slow DNS
@@ -59,9 +59,10 @@ sudo nano /etc/dns2tcp/server.conf
 
 Now put the configuration:
 ```
-listen = YOUR_SERVERIP
+listen = 0.0.0.0
 port = 53
 user = nobody
+chroot = /tmp
 pid_file = /var/run/dns2tcp.pid
 domain = YOUR_NS_RECORD_NAME
 resources = ovpn:YOUR_OPENVPN_IP_PORT
@@ -69,9 +70,10 @@ resources = ovpn:YOUR_OPENVPN_IP_PORT
 
 Example:
 ```
-listen = 127.0.0.1
+listen = 0.0.0.0
 port = 53
 user = nobody
+chroot = /tmp
 pid_file = /var/run/dns2tcp.pid
 domain = dns.tunnel.tcat.me
 resources = ovpn:127.0.0.1:1194
