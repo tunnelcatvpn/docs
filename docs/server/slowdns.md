@@ -88,4 +88,10 @@ You can run the tunnel daemon by:
 sudo dns2tcpd -d 1 -f /etc/dns2tcp/server.conf
 ```
 
+In some cases you might be seeing `bind` error
+You must stop the `systemd-resolved`
+```
+systemctl stop systemd-resolved
+```
+
 Now enable Slow DNS on your Server on Server Repository
