@@ -1,4 +1,6 @@
 source "https://rubygems.org"
 gemspec
-gem "rake"
+gem "rack"
+gem 'rack-jekyll'
+gem 'rake'
 ruby "2.6.6"
