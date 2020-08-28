@@ -21,11 +21,11 @@ The control panel is available at
 [Go to Control Panel](https://cp.tcat.me){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ## How to create your own repository
-[Repository Tutorial](/repository/){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Repository Tutorial](/repository){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ## Setup your Server
 
-[Server Tutorial](/server-setup/){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Server Tutorial](/server-setup){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 
 The Repository System is only available on `TunnelCat VPN` version `2.3.0` above

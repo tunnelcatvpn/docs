@@ -15,7 +15,7 @@ You need to create an account at:
 The Repository System is only available on `TunnelCat VPN` version `2.3.0` above
 
 ## Adding Server Into Your Repository
-You might be needing to setup your own server. The tutorial is available [here](/server-setup/)
+You might be needing to setup your own server. The tutorial is available [here](/server-setup)
 
 Once your server is setup you can try to `Add Server`
 
