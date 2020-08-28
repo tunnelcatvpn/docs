@@ -16,10 +16,10 @@ The difference between free and platinum account
 | HTTP Tunneling | No  | Unlimited Server  |
 | Custom Application Logo | No | Changable |
 | Custom Bottom Image | No | Changable  |
-| Server Creation Limit | 4 | 10 |
+| Server Creation Limit | 4 | Unlimited |
 | Dynamic User Account | No | Supported |
 
-You can upgrade your account at `15 USD`. It's a lifetime upgrade.
+You can upgrade your account at `5 USD/month`.
 
 # Why pay for an upgrade?
 TunnelCat VPN is created and maintained only by a single person. Upgrading your account is a support for the developer.
