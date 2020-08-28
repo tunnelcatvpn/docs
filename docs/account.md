@@ -19,6 +19,7 @@ The difference between free and platinum account
 | Server Creation Limit | 4 | Unlimited |
 | Dynamic User Account | No | Supported |
 | Pop-up Ads | Yes | No |
+| Fast DNS | No | 1 free/month |
 
 You can upgrade your account at `7 USD/month`.
 
