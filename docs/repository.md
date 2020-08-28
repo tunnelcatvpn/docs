@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Create Own Repository
+title: Repository
 nav_order: 2
 permalink: /repository
 last_modified_date: 2020-08-28T14:54:08+0008
