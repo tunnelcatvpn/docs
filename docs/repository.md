@@ -12,6 +12,8 @@ You need to create an account at:
 
 [Control Panel](https://cp.tcat.me){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
+The Repository System is only available on `TunnelCat VPN` version `2.3.0` above
+
 ## Adding Server Into Your Repository
 You might be needing to setup your own server. The tutorial is available [here](/server-setup/)
 
