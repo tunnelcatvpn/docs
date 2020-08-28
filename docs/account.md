@@ -13,11 +13,11 @@ The difference between free and platinum account
 
 | Feature | Free  |  Platinum |  
 |---|---|---|
-| HTTP Tunneling | No  | Unlimited Server  |
-| Custom Application Logo | No | Changable |
-| Custom Bottom Image | No | Changable  |
+| HTTP Tunneling | No  | Unlimited  |
+| Custom Application Logo | No | Yes |
+| Custom Bottom Image | No | Yes  |
 | Server Creation Limit | 4 | Unlimited |
-| Dynamic User Account | No | Supported |
+| Dynamic User Account | No | Yes |
 | Pop-up Ads | Yes | No |
 | Fast DNS | No | 1 free/month |
 
