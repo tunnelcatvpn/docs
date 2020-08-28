@@ -72,7 +72,6 @@ Example:
 listen = 127.0.0.1
 port = 53
 user = nobody
-chroot = /var/empty/dns2tcp/
 pid_file = /var/run/dns2tcp.pid
 domain = dns.tunnel.tcat.me
 resources = ovpn:127.0.0.1:1194
