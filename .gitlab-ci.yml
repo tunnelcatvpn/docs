@@ -1,0 +1,17 @@
+image: ilyasemenov/gitlab-ci-git-push
+
+before_script:
+  - eval $(ssh-agent -s)
+  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+  - mkdir -p ~/.ssh
+  - chmod 700 ~/.ssh
+
+stages:
+  - deploy
+
+deploy to staging:
+  stage: deploy
+  environment: staging
+  only:
+    - master
+  script: git-push dokku@165.22.105.147:docs
