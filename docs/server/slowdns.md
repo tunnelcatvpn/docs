@@ -62,7 +62,6 @@ Now put the configuration:
 listen = YOUR_SERVERIP
 port = 53
 user = nobody
-chroot = /var/empty/dns2tcp/
 pid_file = /var/run/dns2tcp.pid
 domain = YOUR_NS_RECORD_NAME
 resources = ovpn:YOUR_OPENVPN_IP_PORT
