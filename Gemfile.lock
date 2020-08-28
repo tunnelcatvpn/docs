@@ -72,8 +72,8 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  bundler (~> 2.1.4)
+  bundler (~> 2.0.2)
   just-the-docs!
 
 BUNDLED WITH
-   2.1.4
+   2.0.2
