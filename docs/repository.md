@@ -3,7 +3,7 @@ layout: default
 title: Repository
 nav_order: 2
 permalink: /repository
-last_modified_date: 2020-08-28T14:54:08+0008
+last_modified_date: 2020-08-30T21:09:00+0008
 ---
 
 
@@ -32,6 +32,8 @@ On `Add Server` editor you might be seeing lots of inputs. More depth informatio
 9. Slow DNS Installed: Check if `dns2tcp` is installed
 10. HTTP Tunnel Installed: Check if `htunserver` is installed
 
+You can leave the ports blank except for `OpenVPN` if you didn't install the program.
+
 ### OpenVPN Options
 Here you should put you OpenVPN configuration options
 
@@ -50,7 +52,7 @@ cipher AES-128-CBC
 verb 3
 ```
 
-Notice that there is no `remote` on the configuration as the application setup this automatically. You **don't need to include** this.
+Notice that there is no `remote` on the configuration as the application setup this automatically. You **must NOT include** this.
 
 Valid configurations:
 

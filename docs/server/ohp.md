@@ -4,7 +4,7 @@ title: OpenHTTP Puncher
 parent: Server Setup
 nav_order: 3
 permalink: /server/ohp
-last_modified_date: 2020-08-28T14:54:08+0008
+last_modified_date: 2020-08-29T17:03:08+0008
 ---
 
 
@@ -57,11 +57,14 @@ You can change `-port 81` into your desired port.
 
 Change `-proxy 127.0.0.1:8080` with your `privoxy` configuration. For instance your setup `privoxy` on port `3128` change it into `-proxy 127.0.0.1:3128`
 
-Change `-tunnel 127.0.0.1:1194` with your `OpenVPN` configuration. For instance you setup `OpenVPN` on TCP port `443` change it into `-tunnel 127.0.0.1:443`
+Change `-tunnel 192.168.8.1:1194` with your `OpenVPN` configuration. For instance you setup `OpenVPN` on TCP port `443` change it into `-tunnel 192.168.8.1:1194`
 
+You must change `192.168.8.1` with your `Server IP`
 
-Sample command:
-`ohpserver -port 81 -proxy 127.0.0.1:3128 -tunnel 127.0.0.1:443`
+For example:
+I have a server that has an IP of `1.1.1.1` and then a `privoxy` setup on `3128` and an OpenVPN server running on `TCP` port `5555` then here is the command that you'll be using:
+
+`ohpserver -port 81 -proxy 127.0.0.1:3128 -tunnel 1.1.1.1:5555`
 
 Congratulations the server is running!
 
@@ -86,7 +89,7 @@ Wants=network.target
 After=network.target
 
 [Service]
-ExecStart=/usr/local/bin/ohpserver -port 81 -proxy 127.0.0.1:3128 -tunnel 127.0.0.1:443
+ExecStart=/usr/local/bin/ohpserver -port 81 -proxy 127.0.0.1:3128 -tunnel 1.1.1.1:5555
 Restart=always
 RestartSec=3
 [Install]
@@ -97,7 +100,7 @@ WantedBy=multi-user.target
 
 Now press `CTRL + O` and `ENTER` on your keyboard
 
-You can change `-port 81 -proxy 127.0.0.1:3128 -tunnel 127.0.0.1:443` into your setup.
+Change `-port 81 -proxy 127.0.0.1:3128 -tunnel 1.1.1.1:5555` into your setup.
 
 Now reload the `systemctl` and start it
 ```
