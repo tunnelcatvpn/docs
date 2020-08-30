@@ -10,7 +10,6 @@ last_modified_date: 2020-08-28T14:54:08+0008
 
 # Setup HTTP Proxy
 
-
 In some cases `TunnelCat VPN` uses `Privoxy` as HTTP Proxy and powered by `OpenHTTP Puncher` in order to work on `HTTP Injection`
 
 

@@ -18,6 +18,12 @@ This will force your server to send HTTP connection established response.
 1. Upgrades your HTTP Proxy software `squid`/`tinyproxy`/`privoxy` to an HTTP tunneling friendly 
 2. Allows invalid HTTP request to be sent to the server and respond `200 HTTP Status Code`
 
+
+# Prerequisites
+1. A working `HTTP Proxy` installed on your server
+2. OpenVPN installed on `TCP` mode
+
+
 # Install
 
 Go to your `SSH` client or `Console` and establish a connection with your server on the terminal input the following command:
@@ -55,9 +61,9 @@ In your terminal:
 
 You can change `-port 81` into your desired port.
 
-Change `-proxy 127.0.0.1:8080` with your `privoxy` configuration. For instance your setup `privoxy` on port `3128` change it into `-proxy 127.0.0.1:3128`
+Change `-proxy 127.0.0.1:8080` with your `http proxy` configuration. For instance your `http proxy` server IP is `127.0.0.1` setup on port `3128` change it into `-proxy 127.0.0.1:3128`
 
-Change `-tunnel 192.168.8.1:1194` with your `OpenVPN` configuration. For instance you setup `OpenVPN` on TCP port `443` change it into `-tunnel 192.168.8.1:1194`
+Change `-tunnel 192.168.8.1:1194` with your `OpenVPN` configuration. For instance you setup `OpenVPN` on `TCP` port `443` change it into `-tunnel 192.168.8.1:1194`
 
 You must change `192.168.8.1` with your `Server IP`
 
