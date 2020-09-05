@@ -2,7 +2,7 @@
 layout: default
 parent: Server Setup
 title: Automated Setup
-nav_order: 7
+nav_order: 8
 permalink: /automated-setup
 last_modified_date: 2020-09-05T20:38:00+0008
 ---
@@ -42,5 +42,12 @@ Run this command:
 ```
 wget https://raw.githubusercontent.com/tunnelcatvpn/setup/master/uninstall.sh -O uninstall.sh && sudo bash uninstall.sh
 ```
+
+This only installs the following software:
+1. dns2tcp
+2. stunnel
+3. privoxy
+4. ohpserver
+Doesn't include `httptunnel` and `dnstunnel`
 
 The GitHub repository is available [here](https://github.com/tunnelcatvpn/setup)
