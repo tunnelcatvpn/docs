@@ -43,7 +43,7 @@ Run this command:
 wget https://raw.githubusercontent.com/tunnelcatvpn/setup/master/uninstall.sh -O uninstall.sh && sudo bash uninstall.sh
 ```
 
-This only installs the following software:
+This only install the following softwares:
 1. dns2tcp
 2. stunnel
 3. privoxy
