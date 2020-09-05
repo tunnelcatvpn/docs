@@ -12,7 +12,7 @@ last_modified_date: 2020-09-05T20:38:00+0008
 This contains step-by-step tutorial on how you prepare your server to TunnelCat VPN. This might require an access to `SSH` or `Console` on your Server.
 
 
-# Having trouble with the manual setup?
+## Having trouble with the manual setup?
 
 Try the automated setup script.
 

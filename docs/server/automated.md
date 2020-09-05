@@ -1,8 +1,8 @@
 ---
 layout: default
+parent: Server Setup
 title: Automated Setup
 nav_order: 7
-has_children: true
 permalink: /automated-setup
 last_modified_date: 2020-09-05T20:38:00+0008
 ---
