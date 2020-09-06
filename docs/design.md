@@ -11,7 +11,7 @@ It must be 500x500 PNG
 
 Example PNG:
 
-![](/assets/images/btm-img-spec.png)
+![](/assets/images/logo-spec.png)
 
 
 # Banner Design Specification
