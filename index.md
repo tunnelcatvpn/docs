@@ -18,7 +18,7 @@ TunnelCat VPN download is available at
 ## Repository Management
 The control panel is available at
 
-[Go to Control Panel](https://cp.tcat.me){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Go to Control Panel](https://tcat-cp.herokuapp.com/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
 ## How to create your own repository
@@ -32,4 +32,4 @@ The control panel is available at
 The Repository System is only available on `TunnelCat VPN` version `2.3.0` above
 
 ## API Documentation
-[API Documentation](https://api.docs.tcat.me){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[API Documentation](https://api-docs.tcatvpn.tech){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
