@@ -17,7 +17,7 @@ Upportunately, you might be needing to purchase a license inorder to use this fe
 This feature is available at `5 USD license per server/month`, and its documentation is not available on public.
 
 
-You can request a license at `lfasmpao@gmail.com`
+You can request a license at `vpsplus90@gmail.com`
 
 
 Want a demo?
