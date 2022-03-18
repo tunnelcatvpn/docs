@@ -14,7 +14,7 @@ last_modified_date: 2020-08-28T14:54:08+0008
 
 Upportunately, you might be needing to purchase a license inorder to use this feature.
 
-This feature is available at `5 USD license per server/month`, and its documentation is not available on public.
+This feature is available at `7 USD license per server/month`, and its documentation is not available on public.
 
 
 You can request a license at `vpsplus90@gmail.com`
