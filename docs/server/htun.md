@@ -13,7 +13,7 @@ last_modified_date: 2020-08-28T14:54:08+0008
 
 Upportunately, it needs an upgraded Repository Management Account.
 
-You can request an upgrade at `lfasmpao@gmail.com`
+You can request an upgrade at `vpsplus90@gmail.com`
 
 Want a demo?
 Use `HTTP Tunneling or Protocol C` on the Official Servers
